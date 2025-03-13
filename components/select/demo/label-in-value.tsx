@@ -8,17 +8,17 @@ const handleChange = (value: { value: string; label: React.ReactNode }) => {
 const App: React.FC = () => (
   <Select
     labelInValue
-    defaultValue={{ value: 'lucy', label: 'Lucy (101)' }}
+    defaultValue={{ value: 'Leung Yiu Kwong & Tom Kwok', label: '1. Leung Yiu Kwong & Tom Kwok' }}
     style={{ width: 120 }}
     onChange={handleChange}
     options={[
       {
-        value: 'jack',
-        label: 'Jack (100)',
+        value: 'Lor Yiu Ming',
+        label: '2. Lor Yiu Ming',
       },
       {
-        value: 'lucy',
-        label: 'Lucy (101)',
+        value: 'Leung Kam Wing',
+        label: '3. Leung Kam Wing',
       },
     ]}
   />
